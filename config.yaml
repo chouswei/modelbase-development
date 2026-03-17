@@ -14,4 +14,4 @@ model_files:
   - requirements-modelbase-development.sysml
   - deploy-modelbase-development.sysml
   - behaviour-modelbase-development.sysml
-  - project-modelbase-development.sysml
+  - root-modelbase-development.sysml

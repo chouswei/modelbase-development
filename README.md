@@ -48,7 +48,7 @@ Iteration flow: **plan** (modelbase) → **implement** (implement side) → **re
 | `models/requirements-modelbase-development.sysml` | ModelbaseDevelopmentRequirements | Requirements: four domains, workflow, iteration, plan-from-modelbase, report-from-implement-side, traceability.                   |
 | `models/deploy-modelbase-development.sysml`       | ModelbaseDevelopment             | Structure: Modelbase and ImplementSide (e.g. codebase, hardware repo per domain); four development domains; composite deployment. |
 | `models/behaviour-modelbase-development.sysml`    | ModelbaseDevelopmentBehaviour    | Workflow: Plan → develop (SW/HW/mech) → deploy → integrate → verify → ProduceImplementReport → UpdateModelFromGaps.               |
-| `models/project-modelbase-development.sysml`      | ProjectModelbaseDevelopment      | Root: imports all project packages.                                                                                               |
+| `models/root-modelbase-development.sysml`         | ProjectModelbaseDevelopment      | Root: imports all project packages.                                                                                               |
 
 
 Load order is defined in `config.yaml`. Diagrams: BDD/IBD via `python sysml-v2-models/scripts/visualize.py --project modelbase-development --diagram bdd`.
