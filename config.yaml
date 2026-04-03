@@ -1,7 +1,7 @@
 # Modelbase Development – workflow and iteration across software, hardware, mechanism, system deployment.
 # Kernel + ScalarValues only.
 default_diagram_type: bdd
-auto_generate: [bdd, ibd]
+auto_generate: []
 deployment_part: ModelbaseDevelopmentDeployment
 show_inventree_stock: false
 show_clickup_status: false
